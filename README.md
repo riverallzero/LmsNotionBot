@@ -13,7 +13,7 @@
 ***
   
 ### Description
-#### 코드를 사용하기 위해 변경해야할 것
+#### [ 코드를 사용하기 위해 변경해야할 것 ]
 #### 1. lecfinder.py
  - 강의의 고유한 group_id를 주소창에서 찾아 groupid_lec에 입력해야한다.
    group_id 주소창 제일 마지막에 5자리 숫자로 존재한다.
@@ -27,6 +27,8 @@ self.lms_pw = 'LMS 로그인 비밀번호'
 #### 2. notiontelegrambot.py
   - 본인의 텔레그램 채팅 아이디를 입력해야한다.
   <pre><code>self.telegramid = '텔레그램 채팅 아이디'</code></pre>
+  
+#### [ 코드 설명 ]
 #### <li>lecfinder.py = 셀레니움을 이용해 LMS 크롤링하는 class 함수</li>
 <pre><code> class LecFinder:
       def __init__(self):    
