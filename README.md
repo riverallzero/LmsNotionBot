@@ -17,7 +17,8 @@
 #### [ 코드 설명 ]
 #### <li><a href="www.github.com/riverallzero/LmsNotion/lecfinder.py">lecfinder.py</a>
 셀레니움을 이용해 LMS 사이트를 크롤링하는 class</li>
-<pre><code> class LecFinder:
+```python 
+class LecFinder:
       def __init__(self):    
             - 강의 group_id 입력(주소창에 5자리 숫자로 존재)
             - LMS 아이디 입력     
@@ -45,11 +46,12 @@
       
       # def report_result와 video_result, quiz_result 동일하다.
        
-</code></pre>
+```
 
 #### <li><a href="www.github.com/riverallzero/LmsNotion/notiontelegrambot.py">notiontelegrambot.py</a>
 크롤링한 정보들을 텔레그램 봇을 통해 메세지 전달하는 class</li>
-<pre><code>class NotionTelegramBot:
+```python 
+class NotionTelegramBot:
       def __init__(self):
             - lecfinder.py 불러와 lf라고 지정한다.
             - Lms Notion Bot 토큰
@@ -84,14 +86,14 @@
             - 위에서 만든 NotionTelegramBot()이라는 class를 notionbot이라고 저장한다.
             - MessageHandler를 이용해 '할일'이라는 메세지를 받으면 echo대로 행동한다.
             - notionbot의 규칙을 추가한다.
-</pre></code>   
+```
 
 #### [ 코드를 사용하기 위해 변경해야할 것 ]
 #### 1. lecfinder.py
  - 강의의 고유한 group_id를 주소창에서 찾아 groupid_lec에 입력해야한다.
    group_id 주소창 제일 마지막에 5자리 숫자로 존재한다.
  - 본인의 LMS 아이디와 비밀번호를 입력해야한다.
-```swift
+```python
 self.groupid_lec1 = 강의 group_id(5자리수)
 self.groupid_lec2 = 강의 group_id(5자리수)
 
@@ -99,10 +101,10 @@ self.lms_id = 'LMS 로그인 아이디'
 self.lms_pw = 'LMS 로그인 비밀번호'
 ```
 #### 2. notiontelegrambot.py
-  - 본인의 텔레그램 채팅 아이디를 입력해야한다.
-  ```swift
-  self.telegramid = '텔레그램 채팅 아이디'
-  ```
+- 본인의 텔레그램 채팅 아이디를 입력해야한다.
+```python
+self.telegramid = '텔레그램 채팅 아이디'
+```
 
 ***
   
