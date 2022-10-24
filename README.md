@@ -1,15 +1,19 @@
-## LMS로 강의를 들을 때 놓치는 영상, 레포트, 퀴즈를 알려주기위한 알림 봇 🤖
-
-<li>프로젝트 명: Lms Notion
-<li>프로젝트 기간: 2022-05-23~2022-06-10
-
-***
+# LMS로 강의를 들을 때 놓치는 영상, 레포트, 퀴즈를 알려주기위한 알림 봇 🤖
   
+### 목차
+<strong>1. [Information](#information)</strong> : 프로젝트 설명
+
+<strong>2. [Description](#description)</strong> : 코드 설명, 사용하기 위한 변경사항
+
+<strong>3. [Result](#result)</strong> : 시연 결과 이미지, 영상
+
+<strong>4. [Source](#source)</strong> : 참고 자료
+ 
 ### Information
   
 이 프로젝트는 텔레그램 봇(@LmsNotion_bot)에 ‘할 일’이라고 보내면 강의영상, 레포트, 퀴즈의 리스트를 자동으로 탐색한다. 셀레니움을 통해 정보를 가져오고, 봇을 이용해 하지 않은 것들은 제목과 함께 링크를 첨부하며 하라고 알려주고, 모두 했으면 완료했다고 메세지를 보내준다.
-  
-***
+<li>프로젝트 명: Lms Notion
+<li>프로젝트 기간: 2022-05-23~2022-06-10  
   
 ### Description
 
@@ -104,8 +108,6 @@ self.lms_pw = 'LMS 로그인 비밀번호'
 ```python
 self.telegramid = '텔레그램 채팅 아이디'
 ```
-
-***
   
 ### Result
 1. 먼저 봇을 검색해 '할일'이라고 치면 Selenium이 실행될 동안 '로딩중'이라는 메세지가 발송된다.
@@ -117,8 +119,6 @@ self.telegramid = '텔레그램 채팅 아이디'
 #### 시연 동영상
 <li>텔레그램 봇 시연: https://user-images.githubusercontent.com/93754504/172798687-c3c27d34-8102-448d-a7bc-cab8e86bbf4d.mp4
 <li>셀레니움 시연: https://user-images.githubusercontent.com/93754504/172567138-5b5005f5-4d11-4b4b-94df-f422c5d5bc4a.mp4
-
-***
 
 ### Source
 <li>텔레그램 봇 만들기 참고<br>
