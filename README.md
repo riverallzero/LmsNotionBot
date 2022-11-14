@@ -1,14 +1,5 @@
 # LMS로 강의를 들을 때 놓치는 영상, 레포트, 퀴즈를 알려주기위한 알림 봇 🤖
   
-### 목차
-<strong>1. [Information](#information)</strong> : 프로젝트 설명
-
-<strong>2. [Description](#description)</strong> : 코드 설명, 사용하기 위한 변경사항
-
-<strong>3. [Result](#result)</strong> : 시연 결과 이미지, 영상
-
-<strong>4. [Source](#source)</strong> : 참고 자료
- 
 ### Information
   
 이 프로젝트는 텔레그램 봇(@LmsNotion_bot)에 ‘할 일’이라고 보내면 강의영상, 레포트, 퀴즈의 리스트를 자동으로 탐색한다. 셀레니움을 통해 정보를 가져오고, 봇을 이용해 하지 않은 것들은 제목과 함께 링크를 첨부하며 하라고 알려주고, 모두 했으면 완료했다고 메세지를 보내준다.
