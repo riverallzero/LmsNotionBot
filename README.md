@@ -108,18 +108,12 @@ self.telegramid = '텔레그램 채팅 아이디'
 <img src="https://user-images.githubusercontent.com/93754504/172797318-4e0d7af0-8833-4814-90a9-2509c5ab0ea7.png"  width="570" height="600"/>
 
 #### 시연 동영상
-<li>텔레그램 봇 시연: https://user-images.githubusercontent.com/93754504/172798687-c3c27d34-8102-448d-a7bc-cab8e86bbf4d.mp4
-<li>셀레니움 시연: https://user-images.githubusercontent.com/93754504/172567138-5b5005f5-4d11-4b4b-94df-f422c5d5bc4a.mp4
+[텔레그램 봇 시연 영상](https://user-images.githubusercontent.com/93754504/172798687-c3c27d34-8102-448d-a7bc-cab8e86bbf4d.mp4) | [셀레니움 시연 영상](https://user-images.githubusercontent.com/93754504/172567138-5b5005f5-4d11-4b4b-94df-f422c5d5bc4a.mp4)
 
 ### Source
-<li>텔레그램 봇 만들기 참고<br>
-- https://py-son.tistory.com/8
-<li>크롤링 참고<br>
-- https://yeo0.github.io/data/2018/09/24/5.-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%AC%EB%A1%A4%EB%A7%81/ <br>
-- https://hi-guten-tag.tistory.com/11?category=1256065
-<li>Html Xpath 참고<br>
-- https://velog.io/@mjhuh263/TIL-23-HTML-XPATH-%EB%AC%B8%EB%B2%95%EA%B3%BC-selenium%EC%97%90-XPATH-%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0
-<li>Html Css Selector 참고<br>
-- https://www.nextree.co.kr/p8468/
-<li>isinstance 함수 참고<br>
-- https://blockdmask.tistory.com/536
+- [텔레그램 봇 만들기](https://py-son.tistory.com/8)
+- [크롤링1](https://yeo0.github.io/data/2018/09/24/5.-%EB%A1%9C%EA%B7%B8%EC%9D%B8%EC%9D%B4-%ED%95%84%EC%9A%94%ED%95%9C-%EC%82%AC%EC%9D%B4%ED%8A%B8%EC%97%90%EC%84%9C%EC%9D%98-%ED%81%AC%EB%A1%A4%EB%A7%81/)
+[크롤링2](https://hi-guten-tag.tistory.com/11?category=1256065)
+- [Html Xpath](https://velog.io/@mjhuh263/TIL-23-HTML-XPATH-%EB%AC%B8%EB%B2%95%EA%B3%BC-selenium%EC%97%90-XPATH-%EC%9D%B4%EC%9A%A9%ED%95%98%EA%B8%B0)
+- [Html Css Selector](https://www.nextree.co.kr/p8468/)
+- [isinstance()](https://blockdmask.tistory.com/536)
