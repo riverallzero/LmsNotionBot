@@ -10,7 +10,7 @@ class NotionTelegramBot:
     def __init__(self):
         self.lf = lecfinder.LecFinder()
 
-        token = '5513740361:AAHKlEFGN8ySC7dLpkThZF4-XjnOjus-mSQ'
+        token = '텔레그램 봇 토큰'
         self.telegramid = '텔레그램 채팅 아이디'
         self.bot = telegram.Bot(token=token)
 
